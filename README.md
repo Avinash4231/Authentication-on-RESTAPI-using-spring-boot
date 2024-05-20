@@ -62,7 +62,7 @@ curl -X GET -u user:password http://localhost:8080/api/students/{id}
 ```
 ##### Update a Student
 ```
-curl -X PUT -u user:password -H "Content-Type: application/json" -d '{"name": "Jane Doe", "age": 23, "course": "Mathematics"}'
+curl -X PUT -u user:password -H "Content-Type: application/json" -d '{"name": "Jane Doe", "email":"Jane@gmail.com", "course":"B.tech", "branch":"CIVIL"}'
 http://localhost:8080/api/students/{id}
 ```
 ##### Delete a Student
